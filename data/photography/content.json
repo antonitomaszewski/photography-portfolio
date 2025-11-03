@@ -1,0 +1,24 @@
+{
+    "title": "Antoni Tomaszewski",
+    "subtitle": "Professional Photographer",
+    "navigation": ["About", "Portfolio", "Blog", "Contact"],
+    "backgrounds": ["bg1.JPG", "bg2.JPG", "bg3.JPG"],
+    "sections": {
+        "about": {
+            "title": "About",
+            "content": "<p>Jestem profesjonalnym fotografem. Tworzę obrazy.</p><p>Specjalizuję się w malarstwie fotograficznym, fotografii portretowej i krajobrazowej.</p>"
+        },
+        "portfolio": {
+            "title": "Portfolio",
+            "content": "<p>Moje najlepsze prace z ostatnich lat.</p><p>Każde zdjęcie to osobna historia.</p>"
+        },
+        "blog": {
+            "title": "Blog",
+            "content": "<p>Piszę o fotografii, sprzęcie i technikach.</p><p>Zapraszam do lektury moich artykułów.</p>"
+        },
+        "contact": {
+            "title": "Contact",
+            "content": "<p>Email: <a href='mailto:antoni@example.com'>antoni@example.com</a></p><p>Instagram: @antonifoto</p>"
+        }
+    }
+}
