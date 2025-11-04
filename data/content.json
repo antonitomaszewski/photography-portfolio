@@ -2,7 +2,7 @@
     "title": "Antoni Tomaszewski",
     "subtitle": "Professional Photographer",
     "navigation": ["About", "Portfolio", "Series", "Blog", "Contact"],
-    "backgrounds": ["bg1.JPG", "bg2.JPG", "bg3.JPG"],
+    "backgrounds": ["bg1.JPG", "bg2.JPG", "bg3.JPG", "bg4.JPG"],
     "portfolio_images": [
         {"src": "DSCF2951.JPG", "caption": "Sunset over the mountains"},
         {"src": "DSCF3519.JPG", "caption": "City skyline at night"},
@@ -14,6 +14,28 @@
         {"src": "DSCF3865.JPG", "caption": "City skyline at night"},
         {"src": "DSCF3881.JPG", "caption": "City skyline at night"}
     ],
+    "series": [
+        {
+            "title": "Bałtyk",
+            "thumbnail": "baltic_01.jpg",
+            "images": [
+                {"src": "baltic_01.jpg", "caption": "Zachód słońca nad Bałtykiem"},
+                {"src": "baltic_02.jpg", "caption": "Fale u wybrzeża"},
+                {"src": "baltic_03.jpg", "caption": "Klify w Trójmieście"}
+            ]
+        },
+        {
+            "title": "Cmentarzysko",
+            "thumbnail": "DSCF3642.JPG", 
+            "images": [
+                {"src": "DSCF3642.JPG", "caption": "Stary nagrobek"},
+                {"src": "DSCF3649.jpg", "caption": "Mgła nad grobami"},
+                {"src": "DSCF3674.JPG", "caption": "Stary nagrobek"},
+                {"src": "DSCF3725.jpg", "caption": "Mgła nad grobami"}
+                
+            ]
+        }
+    ],
     "sections": {
         "about": {
             "title": "About",
@@ -22,6 +44,10 @@
         "portfolio": {
             "title": "Portfolio",
             "content": "<p>Moje najlepsze prace z ostatnich lat.</p><p>Każde zdjęcie to osobna historia.</p>"
+        },
+        "series": {
+            "title": "Series",
+            "content": "<p>Tematyczne cykle. Dotyczą zdarzeń, osób, miejsc, nastroju.</p>"
         },
         "blog": {
             "title": "Blog",

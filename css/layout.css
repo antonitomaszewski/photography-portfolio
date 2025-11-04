@@ -137,3 +137,39 @@ body {
 
 .lightbox-gallery a:hover img {
     transform: scale(1.05);
+}
+
+
+.series-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.series-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.series-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.series-item img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.series-item:hover img {
+    transform: scale(1.05);
+}
+
+.series-item h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}

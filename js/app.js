@@ -59,6 +59,8 @@ function renderSections(data) {
             html += renderAbout(section);
         } else if (key === 'portfolio') {
             html += renderPortfolio(section, data.portfolio_images);
+        } else if (key === 'series') {
+            html += renderSeries(section, data.series);
         } else {
             html += `
                 <section class="content-section" id="${key}">
@@ -111,9 +113,54 @@ function renderPortfolio(section, portfolioImages) {
     `;
 }
 
- function initPhotoSwipe() {
-    GLightbox();
+function renderSeries(section, seriesData) {
+    const seriesGrid = seriesData.map((serie, index) => 
+        `<div class="series-item" data-series="${index}">
+            <img src="${THEME_PATH}/images/${serie.thumbnail}" alt="${serie.title}">
+            <h3>${serie.title}</h3>
+            <div class="series-gallery" id="series-${index}" style="display: none;">
+                ${serie.images.map(image => 
+                    `<a href="${THEME_PATH}/images/${image.src}" class="glightbox" data-gallery="series-${index}">
+                        <img src="${THEME_PATH}/images/${image.src}" alt="${image.caption}">
+                    </a>`
+                ).join('')}
+            </div>
+        </div>`
+    ).join('');
+
+    return `
+        <section class="content-section" id="series">
+            <h2>${section.title}</h2>
+            <div class="series-content">
+                <div>${section.content}</div>
+                <div class="series-grid">
+                    ${seriesGrid}
+                </div>
+            </div>
+        </section>
+    `;
 }
+
+ function initPhotoSwipe() {
+    const lightbox = GLightbox({
+        touchNavigation: true,
+        loop: true,
+        slideEffect: 'slide',
+        moreLength: 0
+    });
+    
+    // Event listeners dla series
+    document.querySelectorAll('.series-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const seriesIndex = item.dataset.series;
+            const seriesGallery = document.querySelector(`#series-${seriesIndex}`);
+            const firstLink = seriesGallery.querySelector('a');
+            firstLink.click();
+        });
+    });
+}
+
+
 
 // Uruchom aplikację gdy DOM jest gotowy
 if (document.readyState === 'loading') {
