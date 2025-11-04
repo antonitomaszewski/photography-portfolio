@@ -235,3 +235,31 @@ body {
 .blog-link:hover h3 {
     color: #007acc;
 }
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-item {
+    padding: 0.75rem;
+    border-left: 3px solid #007acc;
+    background-color: #f9f9f9;
+}
+
+.contact-item strong {
+    color: #333;
+    margin-right: 0.5rem;
+}
+
+.contact-item a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}

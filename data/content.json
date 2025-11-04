@@ -71,7 +71,7 @@
         },
         "contact": {
             "title": "Contact",
-            "content": "<p>Email: <a href='mailto:antoni@example.com'>antoni@example.com</a></p><p>Instagram: @antonifoto</p>"
+            "content": "<div class='contact-info'><div class='contact-item'><strong>Email:</strong> <a href='mailto:antoni.tomaszewski@protonmail.com'>antoni.tomaszewski@protonmail.com</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='https://instagram.com/antonifoto' target='_blank'>@antonifoto</a></div><div class='contact-item'><strong>Location:</strong> Warsaw, Poland</div></div>"
         }
     }
 }
