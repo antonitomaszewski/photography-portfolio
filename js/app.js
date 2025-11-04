@@ -12,7 +12,8 @@ async function init() {
         renderFirstImage(data.backgrounds);
         renderSiteTitle(data.title, data.subtitle);
         renderNavigation(data.navigation);
-        renderSections(data.sections, data.backgrounds);
+        renderSections(data);
+        initPhotoSwipe();
         
         // Ustaw tytuł strony
         document.title = data.title || 'Portfolio';
@@ -47,18 +48,18 @@ function renderNavigation(items) {
 }
 
 // Renderuj sekcje z treścią i tłami
-function renderSections(sections, backgrounds) {
+function renderSections(data) {
     const content = document.getElementById('content');
     let html = '';
     
     let bgIndex = 0;
     
-    for (const [key, section] of Object.entries(sections)) {
-        // Specjalne renderowanie dla About
+    for (const [key, section] of Object.entries(data.sections)) {
         if (key === 'about') {
             html += renderAbout(section);
+        } else if (key === 'portfolio') {
+            html += renderPortfolio(section, data.portfolio_images);
         } else {
-            // Sekcja z treścią (40:60)
             html += `
                 <section class="content-section" id="${key}">
                     <h2>${section.title}</h2>
@@ -66,10 +67,8 @@ function renderSections(sections, backgrounds) {
                 </section>
             `;
         }
-        
-        // Sekcja ze zdjęciem (jeśli są jeszcze backgrounds)
-        if (bgIndex < backgrounds.length) {
-            const bgPath = `${THEME_PATH}/images/${backgrounds[bgIndex]}`;
+        if (bgIndex < data.backgrounds.length) {
+            const bgPath = `${THEME_PATH}/images/${data.backgrounds[bgIndex]}`;
             html += `
                 <div class="background-section" style="background-image: url('${bgPath}')"></div>
             `;
@@ -92,6 +91,28 @@ function renderAbout(section) {
             </div>
         </section>
     `;
+}
+
+function renderPortfolio(section, portfolioImages) {
+    const imagesGrid = portfolioImages.map((image, index) => 
+        `<a href="${THEME_PATH}/images/${image.src}" class="glightbox">
+            <img src="${THEME_PATH}/images/${image.src}" alt="${image.caption}">
+        </a>`
+    ).join('');
+
+    return `
+        <section class="content-section" id="portfolio">
+            <h2>${section.title}</h2>
+            <div class="portfolio-content">
+                <div>${section.content}</div>
+                <div class="lightbox-gallery">${imagesGrid}</div>
+            </div>
+        </section>
+    `;
+}
+
+ function initPhotoSwipe() {
+    GLightbox();
 }
 
 // Uruchom aplikację gdy DOM jest gotowy

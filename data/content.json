@@ -3,6 +3,17 @@
     "subtitle": "Professional Photographer",
     "navigation": ["About", "Portfolio", "Series", "Blog", "Contact"],
     "backgrounds": ["bg1.JPG", "bg2.JPG", "bg3.JPG"],
+    "portfolio_images": [
+        {"src": "DSCF2951.JPG", "caption": "Sunset over the mountains"},
+        {"src": "DSCF3519.JPG", "caption": "City skyline at night"},
+        {"src": "DSCF3556.JPG", "caption": "City skyline at night"},
+        {"src": "DSCF3585.JPG", "caption": "City skyline at night"},
+        {"src": "DSCF3817.JPG", "caption": "City skyline at night"},
+        {"src": "DSCF3841.JPG", "caption": "City skyline at night"},
+        {"src": "DSCF3844.JPG", "caption": "City skyline at night"},
+        {"src": "DSCF3865.JPG", "caption": "City skyline at night"},
+        {"src": "DSCF3881.JPG", "caption": "City skyline at night"}
+    ],
     "sections": {
         "about": {
             "title": "About",
