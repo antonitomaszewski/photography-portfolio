@@ -100,7 +100,7 @@ function renderAbout(section) {
 
 function renderPortfolio(section, portfolioImages) {
     const imagesGrid = portfolioImages.map((image, index) => 
-        `<a href="${THEME_PATH}/images/${image.src}" class="glightbox">
+        `<a href="${THEME_PATH}/images/${image.src}" class="glightbox" data-gallery="portfolio">
             <img src="${THEME_PATH}/images/${image.thumb}" alt="${image.caption}">
         </a>`
     ).join('');
