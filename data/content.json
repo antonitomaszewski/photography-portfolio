@@ -2,36 +2,36 @@
     "title": "Antoni Tomaszewski",
     "subtitle": "Professional Photographer",
     "navigation": ["About", "Portfolio", "Series", "Blog", "Booking", "Contact"],
-    "backgrounds": ["bg1.JPG", "bg2.JPG", "bg3.JPG", "bg4.JPG", "DSCF3519.JPG"],
+    "backgrounds": ["bg1.webp", "bg2.webp", "bg3.webp", "bg4.webp", "DSCF3519.webp"],
     "portfolio_images": [
-        {"src": "DSCF2951.JPG", "caption": "Sunset over the mountains"},
-        {"src": "DSCF3519.JPG", "caption": "City skyline at night"},
-        {"src": "DSCF3556.JPG", "caption": "City skyline at night"},
-        {"src": "DSCF3585.JPG", "caption": "City skyline at night"},
-        {"src": "DSCF3817.JPG", "caption": "City skyline at night"},
-        {"src": "DSCF3841.JPG", "caption": "City skyline at night"},
-        {"src": "DSCF3844.JPG", "caption": "City skyline at night"},
-        {"src": "DSCF3865.JPG", "caption": "City skyline at night"},
-        {"src": "DSCF3881.JPG", "caption": "City skyline at night"}
+        {"src": "DSCF2951.webp", "thumb": "thumbnails/DSCF2951.webp", "caption": "Sunset over the mountains"},
+        {"src": "DSCF3519.webp", "thumb": "thumbnails/DSCF3519.webp", "caption": "City skyline at night"},
+        {"src": "DSCF3556.webp", "thumb": "thumbnails/DSCF3556.webp", "caption": "City skyline at night"},
+        {"src": "DSCF3585.webp", "thumb": "thumbnails/DSCF3585.webp", "caption": "City skyline at night"},
+        {"src": "DSCF3817.webp", "thumb": "thumbnails/DSCF3817.webp", "caption": "City skyline at night"},
+        {"src": "DSCF3841.webp", "thumb": "thumbnails/DSCF3841.webp", "caption": "City skyline at night"},
+        {"src": "DSCF3844.webp", "thumb": "thumbnails/DSCF3844.webp", "caption": "City skyline at night"},
+        {"src": "DSCF3865.webp", "thumb": "thumbnails/DSCF3865.webp", "caption": "City skyline at night"},
+        {"src": "DSCF3881.webp", "thumb": "thumbnails/DSCF3881.webp", "caption": "City skyline at night"}
     ],
     "series": [
         {
             "title": "Bałtyk",
-            "thumbnail": "baltic_01.jpg",
+            "thumbnail": "thumbnails/baltic_01.webp",
             "images": [
-                {"src": "baltic_01.jpg", "caption": "Zachód słońca nad Bałtykiem"},
-                {"src": "baltic_02.jpg", "caption": "Fale u wybrzeża"},
-                {"src": "baltic_03.jpg", "caption": "Klify w Trójmieście"}
+                {"src": "baltic_01.webp", "caption": "Zachód słońca nad Bałtykiem"},
+                {"src": "baltic_02.webp", "caption": "Fale u wybrzeża"},
+                {"src": "baltic_03.webp", "caption": "Klify w Trójmieście"}
             ]
         },
         {
             "title": "Cmentarzysko",
-            "thumbnail": "DSCF3642.JPG", 
+            "thumbnail": "thumbnails/DSCF3642.webp", 
             "images": [
-                {"src": "DSCF3642.JPG", "caption": "Stary nagrobek"},
-                {"src": "DSCF3649.JPG", "caption": "Mgła nad grobami"},
-                {"src": "DSCF3674.JPG", "caption": "Stary nagrobek"},
-                {"src": "DSCF3725.JPG", "caption": "Mgła nad grobami"}
+                {"src": "DSCF3642.webp", "caption": "Stary nagrobek"},
+                {"src": "DSCF3649.webp", "caption": "Mgła nad grobami"},
+                {"src": "DSCF3674.webp", "caption": "Stary nagrobek"},
+                {"src": "DSCF3725.webp", "caption": "Mgła nad grobami"}
                 
             ]
         }

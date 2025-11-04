@@ -90,7 +90,7 @@ function renderAbout(section) {
             <h2>${section.title}</h2>
             <div class="about-content">
                 <div class="profile-image">
-                    <img src="${THEME_PATH}/images/profile.jpg" alt="Antoni Tomaszewski">
+                    <img src="${THEME_PATH}/images/profile.webp" alt="Antoni Tomaszewski">
                 </div>
                 <div>${section.content}</div>
             </div>
@@ -101,7 +101,7 @@ function renderAbout(section) {
 function renderPortfolio(section, portfolioImages) {
     const imagesGrid = portfolioImages.map((image, index) => 
         `<a href="${THEME_PATH}/images/${image.src}" class="glightbox">
-            <img src="${THEME_PATH}/images/${image.src}" alt="${image.caption}">
+            <img src="${THEME_PATH}/images/${image.thumb}" alt="${image.caption}">
         </a>`
     ).join('');
 

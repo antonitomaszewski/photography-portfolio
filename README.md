@@ -14,8 +14,8 @@ portfolio-template/
     ├── photography/
     │   ├── content.json   ← Wszystkie dane tekstowe
     │   └── images/
-    │       ├── bg1.jpg
-    │       ├── bg2.jpg
+    │       ├── bg1.webp
+    │       ├── bg2.webp
     │       └── ...
     ├── climbing/
     ├── sailing/
@@ -36,6 +36,11 @@ Nawigacja: Kotwice (#about, #portfolio) + smooth scroll (CSS: scroll-behavior: s
 Responsywność: Mobile + Desktop
 Kolorystyka: Jasna, biała, minimalistyczna
 
+TODO:
+trzeba dodać konwersję zdjęć z jpg -> webP
+obecnie folder data waży 180mb,
+może należałoby także zastanowić się nad usunięciem części zdjęć
+portfolio thumbnails -> full resolution dopiero po kliknięciu
 
 
 ┌─────────────────────────────────────────┐
