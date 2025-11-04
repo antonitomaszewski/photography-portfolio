@@ -1,8 +1,8 @@
 {
     "title": "Antoni Tomaszewski",
     "subtitle": "Professional Photographer",
-    "navigation": ["About", "Portfolio", "Series", "Blog", "Contact"],
-    "backgrounds": ["bg1.JPG", "bg2.JPG", "bg3.JPG", "bg4.JPG"],
+    "navigation": ["About", "Portfolio", "Series", "Blog", "Booking", "Contact"],
+    "backgrounds": ["bg1.JPG", "bg2.JPG", "bg3.JPG", "bg4.JPG", "DSCF3519.JPG"],
     "portfolio_images": [
         {"src": "DSCF2951.JPG", "caption": "Sunset over the mountains"},
         {"src": "DSCF3519.JPG", "caption": "City skyline at night"},
@@ -64,6 +64,10 @@
         "blog": {
             "title": "Blog",
             "content": "<p>Piszę o fotografii, sprzęcie i technikach.</p><p>Zapraszam do lektury moich artykułów.</p>"
+        },
+        "booking": {
+            "title": "Booking",
+            "content": "<h3>Portrait Sessions</h3><p>Individual, couples, family sessions. Starting from 300 PLN.</p><h3>Events</h3><p>Weddings, corporate events, concerts. Custom pricing.</p><h3>Commercial</h3><p>Product photography, architecture, real estate.</p><p><strong>Get in touch</strong> - let's discuss details and pricing.</p>"
         },
         "contact": {
             "title": "Contact",
