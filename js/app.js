@@ -14,6 +14,7 @@ async function init() {
         renderNavigation(data.navigation);
         renderSections(data);
         initPhotoSwipe();
+        initBlogModal();
         
         // Ustaw tytuł strony
         document.title = data.title || 'Portfolio';
@@ -61,6 +62,8 @@ function renderSections(data) {
             html += renderPortfolio(section, data.portfolio_images);
         } else if (key === 'series') {
             html += renderSeries(section, data.series);
+        } else if (key === 'blog') {
+            html += renderBlog(section, data.blog_posts);
         } else {
             html += `
                 <section class="content-section" id="${key}">
@@ -160,7 +163,75 @@ function renderSeries(section, seriesData) {
     });
 }
 
+function renderBlog(section, blogPosts) {
+    const postsList = blogPosts.map(post => 
+        `<article class="blog-post">
+            <a href="javascript:void(0)" class="blog-link" data-slug="${post.slug}">
+                <h3>${post.title}</h3>
+                <time>${post.date}</time>
+            </a>
+        </article>`
+    ).join('');
 
+    return `
+        <section class="content-section" id="blog">
+            <h2>${section.title}</h2>
+            <div class="blog-content">
+                <div>${section.content}</div>
+                <div class="blog-posts">
+                    ${postsList}
+                </div>
+            </div>
+        </section>
+    `;
+}
+
+// Dodaj funkcje modal
+async function openBlogPost(slug) {
+    const modal = document.getElementById('blog-modal');
+    const article = document.getElementById('blog-article');
+    
+    try {
+        const response = await fetch(`data/blog/${slug}.md`);
+        const markdown = await response.text();
+        const html = marked.parse(markdown);
+        article.innerHTML = html;
+    } catch (error) {
+        article.innerHTML = `<h1>Błąd</h1><p>Nie można załadować artykułu "${slug}"</p>`;
+    }
+    
+    modal.style.display = 'block';
+}
+
+function closeBlogModal() {
+    const modal = document.getElementById('blog-modal');
+    modal.style.display = 'none';
+}
+
+
+function initBlogModal() {
+    // Event listeners dla blog linków
+    document.querySelectorAll('.blog-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const slug = link.dataset.slug;
+            openBlogPost(slug);
+        });
+    });
+    
+    // Zamykanie modal
+    document.querySelector('#blog-modal .close').addEventListener('click', closeBlogModal);
+    document.getElementById('blog-modal').addEventListener('click', (e) => {
+        if (e.target.id === 'blog-modal') {
+            closeBlogModal();
+        }
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeBlogModal();
+        }
+    });
+}
 
 // Uruchom aplikację gdy DOM jest gotowy
 if (document.readyState === 'loading') {

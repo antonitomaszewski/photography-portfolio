@@ -36,6 +36,18 @@
             ]
         }
     ],
+    "blog_posts": [
+        {
+            "title": "Fotografia uliczna w Warszawie",
+            "date": "2024-10-15",
+            "slug": "fotografia-uliczna-warszawa"
+        },
+        {
+            "title": "Portrety w naturalnym świetle",
+            "date": "2024-09-20",
+            "slug": "portrety-naturalne-swiatlo"
+        }
+    ],
     "sections": {
         "about": {
             "title": "About",
