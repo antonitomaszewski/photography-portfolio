@@ -1,7 +1,7 @@
 {
     "title": "Antoni Tomaszewski",
     "subtitle": "Professional Photographer",
-    "navigation": ["About", "Portfolio", "Blog", "Contact"],
+    "navigation": ["About", "Portfolio", "Series", "Blog", "Contact"],
     "backgrounds": ["bg1.JPG", "bg2.JPG", "bg3.JPG"],
     "sections": {
         "about": {

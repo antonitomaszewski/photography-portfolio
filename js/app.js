@@ -1,21 +1,10 @@
-// Główna aplikacja - ładuje dane i renderuje stronę
-
-// Sprawdź czy config istnieje
-if (typeof CONFIG === 'undefined') {
-    console.error('Brak pliku config.js!');
-}
-
-// Ścieżka do danych aktualnego tematu
-const THEME_PATH = `data/${CONFIG.theme}`;
+const THEME_PATH = `data`;
 
 // Główna funkcja inicjalizująca
 async function init() {
     try {
         // Załaduj dane tematu
         const response = await fetch(`${THEME_PATH}/content.json`);
-        if (!response.ok) {
-            throw new Error(`Nie można załadować ${THEME_PATH}/content.json`);
-        }
         
         const data = await response.json();
         
@@ -65,13 +54,18 @@ function renderSections(sections, backgrounds) {
     let bgIndex = 0;
     
     for (const [key, section] of Object.entries(sections)) {
-        // Sekcja z treścią (40:60)
-        html += `
-            <section class="content-section" id="${key}">
-                <h2>${section.title}</h2>
-                <div>${section.content}</div>
-            </section>
-        `;
+        // Specjalne renderowanie dla About
+        if (key === 'about') {
+            html += renderAbout(section);
+        } else {
+            // Sekcja z treścią (40:60)
+            html += `
+                <section class="content-section" id="${key}">
+                    <h2>${section.title}</h2>
+                    <div>${section.content}</div>
+                </section>
+            `;
+        }
         
         // Sekcja ze zdjęciem (jeśli są jeszcze backgrounds)
         if (bgIndex < backgrounds.length) {
@@ -84,6 +78,20 @@ function renderSections(sections, backgrounds) {
     }
     
     content.innerHTML = html;
+}
+
+function renderAbout(section) {
+    return `
+        <section class="content-section" id="about">
+            <h2>${section.title}</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="${THEME_PATH}/images/profile.jpg" alt="Antoni Tomaszewski">
+                </div>
+                <div>${section.content}</div>
+            </div>
+        </section>
+    `;
 }
 
 // Uruchom aplikację gdy DOM jest gotowy
