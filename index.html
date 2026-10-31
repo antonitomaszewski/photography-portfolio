@@ -19,7 +19,8 @@
 {
     "@context": "https://schema.org",
     "@type": "Person",
-    "image": "data/images/profile.webp",
+    "image": "https://antonitomaszewski.pl/data/images/profile.webp",
+    "url": "https://antonitomaszewski.pl/",
     "name": "Antoni Tomaszewski",
     "jobTitle": "Fotograf",
     "description": "Fotograf z Wrocławia. Zdjęcia Tatr dla pensjonatów, sesje portretowe i fotografia ślubna.",
@@ -42,14 +43,14 @@
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/components.css">
-    <link rel="icon" href="data:,">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 </head>
 <body>
-    <!-- Ten plik to szablon. index.html generuje: node build.js -->
-    <section id="hero" style="background-image: url('data/images/portfolio/tla/01-dscf4701.webp')">
+    <!-- Ten plik to szablon. Strony generuje: node build.js -->
+    <section id="hero" class="" style="background-image: url('data/images/portfolio/tla/01-dscf4701.webp')">
         <div class="hero-content">
-            <a href="/" class="site-title">
+            <a href="./" class="site-title">
                 <h1 id="main-title">Antoni Tomaszewski</h1>
                 <p id="subtitle">Fotografia gór, ludzi i natury · Wrocław i Tatry</p>
             </a>
@@ -78,7 +79,7 @@
         <section class="content-section" id="portfolio">
             <h2>Portfolio</h2>
             <div class="series-content">
-                <div><p>Fotografuję góry, morze, zwierzęta, miasta i ludzi. Kliknij kategorię, aby zobaczyć galerię.</p></div>
+                <div><p>Fotografuję góry, morze, zwierzęta, miasta i ludzi. Kliknij kategorię, aby zobaczyć galerię.</p><p>Więcej zdjęć gór znajdziesz na stronie <a href='tatry/'>Zdjęcia Tatr</a>.</p></div>
                 <div class="series-grid">
                     <div class="series-item" data-series="0">
                         <img src="data/images/portfolio/tatry/thumbs/01-dscf0276.webp" alt="Tatry" loading="lazy">
@@ -169,17 +170,50 @@
 
         <section class="content-section" id="oferta">
             <h2>Oferta</h2>
-            <div><h3>Zdjęcia Tatr dla pensjonatów i obiektów</h3><p>Zdjęcia gór, krajobrazów i okolicy na stronę internetową, do social mediów i materiałów reklamowych pensjonatów, schronisk i obiektów podtatrzańskich. Gotowe zdjęcia z licencją albo sesja na zamówienie, np. widok z Twojego obiektu o świcie, zimą lub jesienią.</p><h3>Sesje portretowe</h3><p>Sesje dla modelek, modeli i osób prywatnych w mieście, w plenerze lub w górach.</p><h3>Fotografia ślubna</h3><p>Reportaż z dnia ślubu i plener, także w Tatrach.</p><h3>Instytucje kultury i wydarzenia</h3><p>Koncerty, spektakle, uroczystości i wydarzenia miejskie: zdjęcia dla filharmonii, oper, teatrów, parafii i instytucji miasta.</p><h3>Publikacje</h3><p>Redakcje i wydawnictwa zainteresowane zdjęciami gór i natury zapraszam do kontaktu.</p><p><strong>Napisz, czego potrzebujesz</strong>, a odpowiem z propozycją i wyceną.</p></div>
+            <div><h3>Zdjęcia Tatr dla pensjonatów i obiektów</h3><p>Zdjęcia gór, krajobrazów i okolicy na stronę internetową, do social mediów i materiałów reklamowych pensjonatów, schronisk i obiektów podtatrzańskich. Gotowe zdjęcia z licencją albo sesja na zamówienie, np. widok z Twojego obiektu o świcie, zimą lub jesienią. <a href='zdjecia-dla-pensjonatow/'>Szczegóły oferty dla pensjonatów</a></p><h3>Sesje portretowe</h3><p>Sesje dla modelek, modeli i osób prywatnych w mieście, w plenerze lub w górach. <a href='sesja-zdjeciowa-wroclaw/'>Więcej o sesjach</a></p><h3>Fotografia ślubna</h3><p>Reportaż z dnia ślubu i plener, także w Tatrach.</p><h3>Instytucje kultury i wydarzenia</h3><p>Koncerty, spektakle, uroczystości i wydarzenia miejskie: zdjęcia dla filharmonii, oper, teatrów, parafii i instytucji miasta.</p><h3>Publikacje</h3><p>Redakcje i wydawnictwa zainteresowane zdjęciami gór i natury zapraszam do kontaktu.</p><p><strong>Napisz, czego potrzebujesz</strong>, a odpowiem z propozycją i wyceną.</p></div>
         </section>
         <div class="background-section" style="background-image: url('data/images/portfolio/tla/04-dscf6792.webp')"></div>
 
         <section class="content-section" id="kontakt">
             <h2>Kontakt</h2>
-            <div><div class='contact-info'><div class='contact-item'><strong>Email:</strong> <a href='mailto:antoni.tomaszewski@protonmail.com'>antoni.tomaszewski@protonmail.com</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='https://instagram.com/antonifoto' target='_blank' rel='noopener'>@antonifoto</a></div><div class='contact-item'><strong>Lokalizacja:</strong> Wrocław · Tatry</div></div></div>
+            <div>
+                <p>Napisz, czego potrzebujesz, albo zostaw e-mail lub telefon w formularzu poniżej. Odpowiem z propozycją i wyceną.</p><div class='contact-info'><div class='contact-item'><strong>Email:</strong> <a href='mailto:antoni.tomaszewski@protonmail.com'>antoni.tomaszewski@protonmail.com</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='https://www.instagram.com/antonifoto/' target='_blank' rel='noopener'>@antonifoto</a></div><div class='contact-item'><strong>Lokalizacja:</strong> Wrocław · Tatry</div></div>
+                
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <h3>Zostaw kontakt, odezwę się</h3>
+                    <input type="hidden" name="access_key" value="WKLEJ-TUTAJ-KLUCZ-Z-WEB3FORMS">
+                    <input type="hidden" name="subject" value="Nowe zapytanie ze strony – Antoni Tomaszewski">
+                    <input type="hidden" name="from_name" value="antonitomaszewski.pl">
+                    <input type="checkbox" name="botcheck" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+                    <label>
+                        E-mail lub telefon
+                        <input type="text" name="kontakt" required minlength="5" autocomplete="email" placeholder="np. jan@example.com lub 600 000 000">
+                    </label>
+                    <label>
+                        <span>Wiadomość <span class="optional">(opcjonalnie)</span></span>
+                        <textarea name="wiadomosc" rows="4" placeholder="Czego potrzebujesz? Termin, miejsce, pomysł…"></textarea>
+                    </label>
+                    <label class="consent">
+                        <input type="checkbox" name="zgoda" value="tak" required>
+                        <span>Zgadzam się na kontakt w sprawie mojego zapytania. Szczegóły w <a href="polityka-prywatnosci/">polityce prywatności</a>.</span>
+                    </label>
+                    <button type="submit">Wyślij</button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
         </section>
         <div class="background-section" style="background-image: url('data/images/portfolio/tla/05-dscf0276.webp')"></div>
     </main>
-    
+
+    <footer id="footer">
+
+            <a href="tatry/">Zdjęcia Tatr</a>
+            <a href="zdjecia-dla-pensjonatow/">Zdjęcia dla pensjonatów</a>
+            <a href="sesja-zdjeciowa-wroclaw/">Sesja zdjęciowa Wrocław</a>
+            <a href="polityka-prywatnosci/">Polityka prywatności</a>
+            <span>© 2026 Antoni Tomaszewski</span>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script src="js/app.js"></script>
 </body>

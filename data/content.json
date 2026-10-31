@@ -1,6 +1,14 @@
 {
     "title": "Antoni Tomaszewski",
     "subtitle": "Fotografia gór, ludzi i natury · Wrocław i Tatry",
+    "site_url": "https://antonitomaszewski.pl",
+    "web3forms_key": "WKLEJ-TUTAJ-KLUCZ-Z-WEB3FORMS",
+    "meta": {
+        "title": "Antoni Tomaszewski – fotograf | Góry, portrety i śluby · Wrocław i Tatry",
+        "description": "Antoni Tomaszewski – fotograf z Wrocławia. Zdjęcia Tatr dla pensjonatów i obiektów podtatrzańskich, sesje portretowe i fotografia ślubna. Fotografuję ludzi, naturę, architekturę i sztukę.",
+        "og_title": "Antoni Tomaszewski – fotograf",
+        "og_description": "Zdjęcia Tatr dla pensjonatów, sesje portretowe i fotografia ślubna. Wrocław i Tatry."
+    },
     "person": {
         "name": "Antoni Tomaszewski",
         "jobTitle": "Fotograf",
@@ -41,7 +49,7 @@
             "type": "portfolio",
             "nav": "Portfolio",
             "title": "Portfolio",
-            "content": "<p>Fotografuję góry, morze, zwierzęta, miasta i ludzi. Kliknij kategorię, aby zobaczyć galerię.</p>",
+            "content": "<p>Fotografuję góry, morze, zwierzęta, miasta i ludzi. Kliknij kategorię, aby zobaczyć galerię.</p><p>Więcej zdjęć gór znajdziesz na stronie <a href='tatry/'>Zdjęcia Tatr</a>.</p>",
             "categories": [
                 {
                     "title": "Tatry",
@@ -70,14 +78,14 @@
             "type": "text",
             "nav": "Oferta",
             "title": "Oferta",
-            "content": "<h3>Zdjęcia Tatr dla pensjonatów i obiektów</h3><p>Zdjęcia gór, krajobrazów i okolicy na stronę internetową, do social mediów i materiałów reklamowych pensjonatów, schronisk i obiektów podtatrzańskich. Gotowe zdjęcia z licencją albo sesja na zamówienie, np. widok z Twojego obiektu o świcie, zimą lub jesienią.</p><h3>Sesje portretowe</h3><p>Sesje dla modelek, modeli i osób prywatnych w mieście, w plenerze lub w górach.</p><h3>Fotografia ślubna</h3><p>Reportaż z dnia ślubu i plener, także w Tatrach.</p><h3>Instytucje kultury i wydarzenia</h3><p>Koncerty, spektakle, uroczystości i wydarzenia miejskie: zdjęcia dla filharmonii, oper, teatrów, parafii i instytucji miasta.</p><h3>Publikacje</h3><p>Redakcje i wydawnictwa zainteresowane zdjęciami gór i natury zapraszam do kontaktu.</p><p><strong>Napisz, czego potrzebujesz</strong>, a odpowiem z propozycją i wyceną.</p>"
+            "content": "<h3>Zdjęcia Tatr dla pensjonatów i obiektów</h3><p>Zdjęcia gór, krajobrazów i okolicy na stronę internetową, do social mediów i materiałów reklamowych pensjonatów, schronisk i obiektów podtatrzańskich. Gotowe zdjęcia z licencją albo sesja na zamówienie, np. widok z Twojego obiektu o świcie, zimą lub jesienią. <a href='zdjecia-dla-pensjonatow/'>Szczegóły oferty dla pensjonatów</a></p><h3>Sesje portretowe</h3><p>Sesje dla modelek, modeli i osób prywatnych w mieście, w plenerze lub w górach. <a href='sesja-zdjeciowa-wroclaw/'>Więcej o sesjach</a></p><h3>Fotografia ślubna</h3><p>Reportaż z dnia ślubu i plener, także w Tatrach.</p><h3>Instytucje kultury i wydarzenia</h3><p>Koncerty, spektakle, uroczystości i wydarzenia miejskie: zdjęcia dla filharmonii, oper, teatrów, parafii i instytucji miasta.</p><h3>Publikacje</h3><p>Redakcje i wydawnictwa zainteresowane zdjęciami gór i natury zapraszam do kontaktu.</p><p><strong>Napisz, czego potrzebujesz</strong>, a odpowiem z propozycją i wyceną.</p>"
         },
         {
             "id": "kontakt",
-            "type": "text",
+            "type": "contact",
             "nav": "Kontakt",
             "title": "Kontakt",
-            "content": "<div class='contact-info'><div class='contact-item'><strong>Email:</strong> <a href='mailto:antoni.tomaszewski@protonmail.com'>antoni.tomaszewski@protonmail.com</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='https://instagram.com/antonifoto' target='_blank' rel='noopener'>@antonifoto</a></div><div class='contact-item'><strong>Lokalizacja:</strong> Wrocław · Tatry</div></div>"
+            "content": "<p>Napisz, czego potrzebujesz, albo zostaw e-mail lub telefon w formularzu poniżej. Odpowiem z propozycją i wyceną.</p><div class='contact-info'><div class='contact-item'><strong>Email:</strong> <a href='mailto:antoni.tomaszewski@protonmail.com'>antoni.tomaszewski@protonmail.com</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='https://www.instagram.com/antonifoto/' target='_blank' rel='noopener'>@antonifoto</a></div><div class='contact-item'><strong>Lokalizacja:</strong> Wrocław · Tatry</div></div>"
         }
     ]
 }

@@ -1,0 +1,51 @@
+{
+    "slug": "polityka-prywatnosci",
+    "order": 9,
+    "footer_label": "Polityka prywatności",
+    "meta": {
+        "title": "Polityka prywatności | Antoni Tomaszewski – fotograf",
+        "description": "Jak przetwarzam dane osobowe przesłane przez formularz kontaktowy na stronie antonitomaszewski.pl."
+    },
+    "h1": "Polityka prywatności",
+    "subtitle": "antonitomaszewski.pl",
+    "hero": "portfolio/tla/02-dscf9649.webp",
+    "backgrounds": [],
+    "sections": [
+        {
+            "id": "administrator",
+            "type": "text",
+            "title": "Administrator danych",
+            "content": "<p>Administratorem Twoich danych osobowych jest Antoni Tomaszewski, Wrocław. Kontakt w sprawie danych: <a href='mailto:antoni.tomaszewski@protonmail.com'>antoni.tomaszewski@protonmail.com</a>.</p>"
+        },
+        {
+            "id": "jakie-dane",
+            "type": "text",
+            "title": "Jakie dane i po co",
+            "content": "<p>Przez formularz kontaktowy zbieram tylko to, co sam podasz: adres e-mail lub numer telefonu i – jeśli chcesz – treść wiadomości.</p><p>Używam ich wyłącznie po to, żeby odpowiedzieć na Twoje zapytanie i – jeśli się umówimy – przygotować ofertę lub zrealizować zlecenie. Podstawą jest Twoja zgoda oraz działania przed zawarciem umowy (art. 6 ust. 1 lit. a i b RODO).</p><p>Nie wysyłam newslettera ani reklam i nie przekazuję Twoich danych nikomu w celach marketingowych.</p>"
+        },
+        {
+            "id": "odbiorcy",
+            "type": "text",
+            "title": "Kto jeszcze ma dostęp do danych",
+            "content": "<p>Wiadomości z formularza przechodzą przez serwis Web3Forms, który przekazuje je na mój adres e-mail. Strona jest hostowana w serwisie GitHub Pages, a galeria zdjęć korzysta z biblioteki ładowanej z jsDelivr – te serwisy mogą technicznie widzieć Twój adres IP, jak przy każdej stronie internetowej. Część z nich działa poza Europejskim Obszarem Gospodarczym.</p>"
+        },
+        {
+            "id": "jak-dlugo",
+            "type": "text",
+            "title": "Jak długo przechowuję dane",
+            "content": "<p>Tak długo, jak trwa nasza korespondencja i ewentualna współpraca, a potem nie dłużej, niż wymagają tego przepisy (np. podatkowe) albo ochrona przed roszczeniami.</p>"
+        },
+        {
+            "id": "twoje-prawa",
+            "type": "text",
+            "title": "Twoje prawa",
+            "content": "<p>Masz prawo do dostępu do swoich danych, ich poprawienia, usunięcia, ograniczenia przetwarzania i przeniesienia, a także do cofnięcia zgody w dowolnym momencie – wystarczy e-mail. Możesz też złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych.</p>"
+        },
+        {
+            "id": "cookies",
+            "type": "text",
+            "title": "Pliki cookies",
+            "content": "<p>Strona nie używa plików cookies do śledzenia ani statystyk.</p>"
+        }
+    ]
+}
