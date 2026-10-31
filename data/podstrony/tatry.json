@@ -1,0 +1,38 @@
+{
+    "slug": "tatry",
+    "order": 1,
+    "footer_label": "Zdjęcia Tatr",
+    "meta": {
+        "title": "Zdjęcia Tatr – fotografia górska | Antoni Tomaszewski",
+        "description": "Zdjęcia Tatr o każdej porze roku: zimowe granie, mgły nad dolinami, jesienne hale i zachody słońca. Fotografie dostępne na licencji – na stronę, do social mediów i druku."
+    },
+    "h1": "Zdjęcia Tatr",
+    "subtitle": "Fotografia górska · Antoni Tomaszewski",
+    "hero": "portfolio/tatry/04-dscf9653.webp",
+    "backgrounds": [
+        "portfolio/tatry/13-dscf0559.webp",
+        "portfolio/tatry/07-dscf6792.webp"
+    ],
+    "sections": [
+        {
+            "id": "o-zdjeciach",
+            "type": "text",
+            "title": "Tatry o każdej porze roku",
+            "content": "<p>W Tatrach bywam regularnie. Trenuję tu, bo przygotowuję się do zostania ratownikiem-ochotnikiem TOPR, więc góry oglądam o różnych porach roku i dnia: zimą i latem, o świcie i po zachodzie słońca, w pełnym słońcu i we mgle.</p><p>Na tej stronie zebrałem moje ulubione zdjęcia Tatr: ośnieżone granie, morze chmur nad dolinami, jesienne hale i stawy, w których odbijają się szczyty.</p><p>Wszystkie zdjęcia są dostępne na licencji – na stronę internetową, do social mediów albo do druku. Jeśli prowadzisz pensjonat lub obiekt pod Tatrami, zobacz <a href='../zdjecia-dla-pensjonatow/'>ofertę zdjęć dla pensjonatów</a>.</p>"
+        },
+        {
+            "id": "galeria",
+            "type": "photos",
+            "title": "Galeria",
+            "folder": "tatry",
+            "fallback_alt": "Tatry",
+            "content": "<p>Kliknij zdjęcie, aby zobaczyć je w pełnym rozmiarze.</p>"
+        },
+        {
+            "id": "kontakt",
+            "type": "contact",
+            "title": "Kontakt",
+            "content": "<p>Chcesz wykorzystać któreś zdjęcie albo zamówić zdjęcia konkretnego miejsca w Tatrach? Napisz lub zostaw kontakt.</p>"
+        }
+    ]
+}

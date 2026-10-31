@@ -1,0 +1,43 @@
+{
+    "slug": "sesja-zdjeciowa-wroclaw",
+    "order": 3,
+    "footer_label": "Sesja zdjęciowa Wrocław",
+    "meta": {
+        "title": "Sesja zdjęciowa Wrocław i w górach – portrety | Antoni Tomaszewski",
+        "description": "Sesje portretowe we Wrocławiu, w plenerze i w Tatrach. Zdjęcia dla modelek i modeli do portfolio, sesje osobiste i wizerunkowe w naturalnym świetle. Współpraca TFP."
+    },
+    "h1": "Sesja zdjęciowa we Wrocławiu i w górach",
+    "subtitle": "Portrety w naturalnym świetle · Antoni Tomaszewski",
+    "hero": "portfolio/ludzie/02-dscf6021.webp",
+    "backgrounds": [
+        "portfolio/tatry/14-dscf8702.webp"
+    ],
+    "sections": [
+        {
+            "id": "sesje",
+            "type": "text",
+            "title": "Sesje portretowe",
+            "content": "<p>Fotografuję ludzi w naturalnym świetle – we Wrocławiu, w plenerze i w górach. Szukam w portrecie tego, co w człowieku prawdziwe, a nie wyreżyserowane.</p><h3>Dla kogo</h3><p>Dla modelek i modeli, którzy budują portfolio, dla osób, które chcą mieć dobre zdjęcia wizerunkowe, i dla każdego, kto marzy o sesji w mieście albo w Tatrach.</p><h3>Jak wygląda sesja</h3><p>Zaczynamy od krótkiej rozmowy o pomyśle, miejscu i porze dnia. Potem sesja – spokojnie, bez pośpiechu. Na koniec wybieram i obrabiam najlepsze zdjęcia i przesyłam je online.</p>"
+        },
+        {
+            "id": "tfp",
+            "type": "text",
+            "title": "Modelki i modele – TFP",
+            "content": "<p>Rozwijam portfolio portretowe, dlatego chętnie podejmuję współpracę TFP: sesja bez opłat, Ty dostajesz zdjęcia, ja – materiał do portfolio. Jeśli masz pomysł na sesję we Wrocławiu albo w górach, napisz.</p>"
+        },
+        {
+            "id": "portrety",
+            "type": "photos",
+            "title": "Portrety",
+            "folder": "ludzie",
+            "fallback_alt": "Portret",
+            "content": "<p>Wybrane portrety. Kliknij zdjęcie, aby zobaczyć je w pełnym rozmiarze.</p>"
+        },
+        {
+            "id": "kontakt",
+            "type": "contact",
+            "title": "Kontakt",
+            "content": "<p>Zostaw e-mail lub telefon i napisz w kilku słowach, jaką sesję sobie wyobrażasz.</p>"
+        }
+    ]
+}
