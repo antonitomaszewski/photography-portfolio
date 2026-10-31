@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antoni Tomaszewski – fotograf | Góry, portrety i śluby · Wrocław i Tatry</title>
+    <meta name="description" content="Antoni Tomaszewski – fotograf z Wrocławia. Zdjęcia Tatr dla pensjonatów i obiektów podtatrzańskich, sesje portretowe i fotografia ślubna. Fotografuję ludzi, naturę, architekturę i sztukę.">
+    <meta name="author" content="Antoni Tomaszewski">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:title" content="Antoni Tomaszewski – fotograf">
+    <meta property="og:description" content="Zdjęcia Tatr dla pensjonatów, sesje portretowe i fotografia ślubna. Wrocław i Tatry.">
+    <meta property="og:image" content="https://antonitomaszewski.pl/data/images/portfolio/tla/01-dscf4701.webp">
+    <meta property="og:url" content="https://antonitomaszewski.pl/">
+    <link rel="canonical" href="https://antonitomaszewski.pl/">
+
+    {{structured_data}}
+
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+</head>
+<body>
+    <!-- Ten plik to szablon. index.html generuje: node build.js -->
+    <section id="hero" style="background-image: url('{{hero}}')">
+        <div class="hero-content">
+            <a href="/" class="site-title">
+                <h1 id="main-title">{{title}}</h1>
+                <p id="subtitle">{{subtitle}}</p>
+            </a>
+        </div>
+    </section>
+    <nav id="main-nav">
+{{nav}}
+    </nav>
+
+    <main id="content">
+{{content}}
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

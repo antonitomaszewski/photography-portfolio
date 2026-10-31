@@ -63,3 +63,15 @@ portfolio thumbnails -> full resolution dopiero po kliknięciu
 │                                         │
 └─────────────────────────────────────────┘
 
+
+
+JAK PRACOWAĆ ZE STRONĄ
+======================
+Treść:   edytuj data/content.json (sekcje, zdjęcia, alt-y)
+         <head> (title, meta description) jest w template.html
+Budowa:  node build.js   → generuje index.html (NIE edytuj index.html ręcznie)
+Podgląd: python3 -m http.server 8080  → http://localhost:8080
+Zdjęcia: wrzuć JPG do zdjecia-oryginalne/<kategoria>/  (tatry, morze, zwierzeta, miasta, ludzie)
+         ./scripts/convert-images.sh && node build.js
+         kategoria pojawia się na stronie sama, pusta jest ukryta
+         nowa kategoria = nowy folder + wpis w "categories" w data/content.json
