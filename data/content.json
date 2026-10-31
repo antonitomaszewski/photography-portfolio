@@ -1,77 +1,83 @@
 {
     "title": "Antoni Tomaszewski",
-    "subtitle": "Professional Photographer",
-    "navigation": ["About", "Portfolio", "Series", "Blog", "Booking", "Contact"],
-    "backgrounds": ["bg1.webp", "bg2.webp", "bg3.webp", "bg4.webp", "DSCF3519.webp"],
-    "portfolio_images": [
-        {"src": "DSCF2951.webp", "thumb": "thumbnails/DSCF2951.webp", "caption": "Sunset over the mountains"},
-        {"src": "DSCF3519.webp", "thumb": "thumbnails/DSCF3519.webp", "caption": "City skyline at night"},
-        {"src": "DSCF3556.webp", "thumb": "thumbnails/DSCF3556.webp", "caption": "City skyline at night"},
-        {"src": "DSCF3585.webp", "thumb": "thumbnails/DSCF3585.webp", "caption": "City skyline at night"},
-        {"src": "DSCF3817.webp", "thumb": "thumbnails/DSCF3817.webp", "caption": "City skyline at night"},
-        {"src": "DSCF3841.webp", "thumb": "thumbnails/DSCF3841.webp", "caption": "City skyline at night"},
-        {"src": "DSCF3844.webp", "thumb": "thumbnails/DSCF3844.webp", "caption": "City skyline at night"},
-        {"src": "DSCF3865.webp", "thumb": "thumbnails/DSCF3865.webp", "caption": "City skyline at night"},
-        {"src": "DSCF3881.webp", "thumb": "thumbnails/DSCF3881.webp", "caption": "City skyline at night"}
+    "subtitle": "Fotografia gór, ludzi i natury · Wrocław i Tatry",
+    "person": {
+        "name": "Antoni Tomaszewski",
+        "jobTitle": "Fotograf",
+        "description": "Fotograf z Wrocławia. Zdjęcia Tatr dla pensjonatów, sesje portretowe i fotografia ślubna.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Wrocław",
+            "addressCountry": "PL"
+        },
+        "knowsAbout": [
+            "fotografia górska",
+            "fotografia Tatr",
+            "fotografia portretowa",
+            "fotografia ślubna",
+            "fotografia natury",
+            "fotografia architektury"
+        ]
+    },
+    "hero": "portfolio/tla/01-dscf4701.webp",
+    "backgrounds": [
+        "portfolio/tla/02-dscf9649.webp",
+        "portfolio/tla/03-dscf8721.webp",
+        "portfolio/tla/04-dscf6792.webp",
+        "portfolio/tla/05-dscf0276.webp"
     ],
-    "series": [
+    "sections": [
         {
-            "title": "Bałtyk",
-            "thumbnail": "thumbnails/baltic_01.webp",
-            "images": [
-                {"src": "baltic_01.webp", "caption": "Zachód słońca nad Bałtykiem"},
-                {"src": "baltic_02.webp", "caption": "Fale u wybrzeża"},
-                {"src": "baltic_03.webp", "caption": "Klify w Trójmieście"}
-            ]
+            "id": "o-mnie",
+            "type": "about",
+            "nav": "O mnie",
+            "title": "O mnie",
+            "photo": "profile.webp",
+            "photo_alt": "Antoni Tomaszewski, fotograf",
+            "content": "<p>Nazywam się Antoni Tomaszewski. Na co dzień pracuję jako informatyk we Wrocławiu, a fotografia jest moją pasją. Szukam piękna w ludziach, naturze, architekturze i sztuce.</p><p>Dużo czasu spędzam w Tatrach. Regularnie trenuję w mieście i w górach, bo przygotowuję się do zostania ratownikiem-ochotnikiem TOPR. Dlatego w górach bywam często i o różnych porach roku.</p><p>Przez lata grałem na gitarze klasycznej po kilka godzin dziennie i do dziś co jakiś czas do niej wracam. Poza tym żegluję i czytam Szekspira.</p><p>Fotografuję aparatem Fujifilm.</p>"
         },
         {
-            "title": "Cmentarzysko",
-            "thumbnail": "thumbnails/DSCF3642.webp", 
-            "images": [
-                {"src": "DSCF3642.webp", "caption": "Stary nagrobek"},
-                {"src": "DSCF3649.webp", "caption": "Mgła nad grobami"},
-                {"src": "DSCF3674.webp", "caption": "Stary nagrobek"},
-                {"src": "DSCF3725.webp", "caption": "Mgła nad grobami"}
-                
-            ]
-        }
-    ],
-    "blog_posts": [
-        {
-            "title": "Fotografia uliczna w Warszawie",
-            "date": "2024-10-15",
-            "slug": "fotografia-uliczna-warszawa"
-        },
-        {
-            "title": "Portrety w naturalnym świetle",
-            "date": "2024-09-20",
-            "slug": "portrety-naturalne-swiatlo"
-        }
-    ],
-    "sections": {
-        "about": {
-            "title": "About",
-            "content": "<p>Jestem profesjonalnym fotografem. Tworzę obrazy.</p><p>Specjalizuję się w malarstwie fotograficznym, fotografii portretowej i krajobrazowej.</p>"
-        },
-        "portfolio": {
+            "id": "portfolio",
+            "type": "portfolio",
+            "nav": "Portfolio",
             "title": "Portfolio",
-            "content": "<p>Moje najlepsze prace z ostatnich lat.</p><p>Każde zdjęcie to osobna historia.</p>"
+            "content": "<p>Fotografuję góry, morze, zwierzęta, miasta i ludzi. Kliknij kategorię, aby zobaczyć galerię.</p>",
+            "categories": [
+                {
+                    "title": "Tatry",
+                    "folder": "tatry"
+                },
+                {
+                    "title": "Morze",
+                    "folder": "morze"
+                },
+                {
+                    "title": "Zwierzęta",
+                    "folder": "zwierzeta"
+                },
+                {
+                    "title": "Miasta",
+                    "folder": "miasta"
+                },
+                {
+                    "title": "Ludzie",
+                    "folder": "ludzie"
+                }
+            ]
         },
-        "series": {
-            "title": "Series",
-            "content": "<p>Tematyczne cykle. Dotyczą zdarzeń, osób, miejsc, nastroju.</p>"
+        {
+            "id": "oferta",
+            "type": "text",
+            "nav": "Oferta",
+            "title": "Oferta",
+            "content": "<h3>Zdjęcia Tatr dla pensjonatów i obiektów</h3><p>Zdjęcia gór, krajobrazów i okolicy na stronę internetową, do social mediów i materiałów reklamowych pensjonatów, schronisk i obiektów podtatrzańskich. Gotowe zdjęcia z licencją albo sesja na zamówienie, np. widok z Twojego obiektu o świcie, zimą lub jesienią.</p><h3>Sesje portretowe</h3><p>Sesje dla modelek, modeli i osób prywatnych w mieście, w plenerze lub w górach.</p><h3>Fotografia ślubna</h3><p>Reportaż z dnia ślubu i plener, także w Tatrach.</p><h3>Instytucje kultury i wydarzenia</h3><p>Koncerty, spektakle, uroczystości i wydarzenia miejskie: zdjęcia dla filharmonii, oper, teatrów, parafii i instytucji miasta.</p><h3>Publikacje</h3><p>Redakcje i wydawnictwa zainteresowane zdjęciami gór i natury zapraszam do kontaktu.</p><p><strong>Napisz, czego potrzebujesz</strong>, a odpowiem z propozycją i wyceną.</p>"
         },
-        "blog": {
-            "title": "Blog",
-            "content": "<p>Piszę o fotografii, sprzęcie i technikach.</p><p>Zapraszam do lektury moich artykułów.</p>"
-        },
-        "booking": {
-            "title": "Booking",
-            "content": "<h3>Portrait Sessions</h3><p>Individual, couples, family sessions. Starting from 300 PLN.</p><h3>Events</h3><p>Weddings, corporate events, concerts. Custom pricing.</p><h3>Commercial</h3><p>Product photography, architecture, real estate.</p><p><strong>Get in touch</strong> - let's discuss details and pricing.</p>"
-        },
-        "contact": {
-            "title": "Contact",
-            "content": "<div class='contact-info'><div class='contact-item'><strong>Email:</strong> <a href='mailto:antoni.tomaszewski@protonmail.com'>antoni.tomaszewski@protonmail.com</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='https://instagram.com/antonifoto' target='_blank'>@antonifoto</a></div><div class='contact-item'><strong>Location:</strong> Warsaw, Poland</div></div>"
+        {
+            "id": "kontakt",
+            "type": "text",
+            "nav": "Kontakt",
+            "title": "Kontakt",
+            "content": "<div class='contact-info'><div class='contact-item'><strong>Email:</strong> <a href='mailto:antoni.tomaszewski@protonmail.com'>antoni.tomaszewski@protonmail.com</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='https://instagram.com/antonifoto' target='_blank' rel='noopener'>@antonifoto</a></div><div class='contact-item'><strong>Lokalizacja:</strong> Wrocław · Tatry</div></div>"
         }
-    }
+    ]
 }
