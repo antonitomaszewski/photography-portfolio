@@ -163,44 +163,28 @@
         "opis": "Para z balonami na ulicy w Krakowie",
         "nazwa": "Para z balonami w Krakowie"
     },
-    "ludzie/01-portret-w-gorach-izerskich.webp": {
-        "opis": "Portret mężczyzny w Górach Izerskich",
-        "nazwa": "Portret w Górach Izerskich"
-    },
-    "ludzie/02-portret-na-gladkim-wierchu.webp": {
-        "opis": "Portret mężczyzny na Gładkim Wierchu, Tatry",
-        "nazwa": "Portret na Gładkim Wierchu"
-    },
-    "ludzie/03-gory-izerskie.webp": {
-        "opis": "Mężczyzna w Górach Izerskich",
-        "nazwa": "Góry Izerskie"
-    },
-    "ludzie/04-janek.webp": {
+    "ludzie/01-janek.webp": {
         "opis": "Portret: Janek",
         "nazwa": "Janek"
     },
-    "ludzie/05-autoportret-w-brukseli.webp": {
+    "ludzie/02-autoportret-w-oknie.webp": {
+        "opis": "Autoportret w oknie",
+        "nazwa": "Autoportret w oknie"
+    },
+    "ludzie/03-portret-na-gladkim-wierchu.webp": {
+        "opis": "Portret mężczyzny na Gładkim Wierchu, Tatry",
+        "nazwa": "Portret na Gładkim Wierchu"
+    },
+    "ludzie/04-autoportret-w-brukseli.webp": {
         "opis": "Autoportret w Brukseli",
         "nazwa": "Autoportret w Brukseli"
     },
-    "ludzie/06-autoportret-z-profilu.webp": {
+    "ludzie/05-autoportret-z-profilu.webp": {
         "opis": "Autoportret z profilu",
         "nazwa": "Autoportret z profilu"
     },
-    "ludzie/07-zamyslona-kobieta.webp": {
-        "opis": "Portret zamyślonej kobiety",
-        "nazwa": "Zamyślona kobieta"
-    },
-    "ludzie/08-autoportret.webp": {
-        "opis": "Autoportret",
-        "nazwa": "Autoportret"
-    },
-    "ludzie/09-autoportret-na-sniezce.webp": {
+    "ludzie/06-autoportret-na-sniezce.webp": {
         "opis": "Autoportret na Śnieżce, Karkonosze",
         "nazwa": "Autoportret na Śnieżce"
-    },
-    "ludzie/10-autoportret-w-oknie.webp": {
-        "opis": "Autoportret w oknie",
-        "nazwa": "Autoportret w oknie"
     }
 }
